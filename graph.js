@@ -1,4 +1,4 @@
-function Histogram(element) {
+function Histogram (element) {
   this.element = element;
   this.columns = {};
   this.randomColor = function() {
