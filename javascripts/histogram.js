@@ -27,3 +27,11 @@ Histogram.prototype.process = function (keyCode) {
     }
   }
 };
+
+Histogram.prototype.extractInput = function () {
+  $('.row').remove();
+  $('p').html('');
+  var input = $('textarea').val();
+  $('textarea').val('');
+  return input;
+}
