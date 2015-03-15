@@ -25,8 +25,5 @@ Histogram.prototype.process = function (keyCode) {
     for (var letter in this.columns) {
       this.columns[letter].changeColor('white');
     }
-  } else if (keyCode === 13) {
-    $('.row').remove();
-    $('textarea').val('');
   }
 };
