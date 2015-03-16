@@ -52,3 +52,5 @@ p {
   height: 30px;
   margin-bottom: 20px;
 }
+
+iframe { display: none; }
