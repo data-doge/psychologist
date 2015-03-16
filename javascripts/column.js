@@ -1,6 +1,6 @@
 function Column () {
   this.element = $("<div class='column'></div>")
-    .append($('<h1></h1>').text("."));
+    .append($('<h2></h2>').text("."));
 };
 
 Column.prototype.initialize = function (graph) {

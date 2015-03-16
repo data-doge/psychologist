@@ -1,5 +1,6 @@
 html, body {
   position: relative;
+  height: 100%;
 }
 
 body {
@@ -16,6 +17,13 @@ body {
 }
 
 h1 {
+  display: inline-block;
+  padding: 3px 10px;
+  border-bottom: 3px solid black;
+  margin-bottom: 15px;
+}
+
+h2 {
   font-size: 1.5em;
   margin: 0;
 }
@@ -53,4 +61,23 @@ p {
   margin-bottom: 20px;
 }
 
-iframe { display: none; }
+footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  transition: 0.5s;
+}
+
+a:hover {
+  border-bottom-color: rgba(0,0,0,0);
+}
