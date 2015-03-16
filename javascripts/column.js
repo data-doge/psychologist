@@ -1,7 +1,6 @@
-function Column (letter) {
+function Column () {
   this.element = $("<div class='column'></div>")
-    .attr('id', letter)
-    .append($('<h1></h1>').text(letter));
+    .append($('<h1></h1>').text("."));
 };
 
 Column.prototype.initialize = function (graph) {

@@ -10,7 +10,7 @@ function Histogram (element) {
 Histogram.prototype.initialize = function() {
   var letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
   for (var i = 0; i < letters.length; i++) {
-    var column = new Column(letters[i]);
+    var column = new Column();
     column.initialize(this.element);
     this.columns[letters[i]] = column;
   }

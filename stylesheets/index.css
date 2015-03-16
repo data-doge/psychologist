@@ -10,7 +10,7 @@ body {
 
 .column {
   border: 2px solid black;
-  width: 30px;
+  width: 10px;
   margin-right: 5px;
   display: inline-block;
 }
