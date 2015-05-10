@@ -4,7 +4,6 @@ $(document).ready(function() {
   histogram.initialize();
 
   $('body').on('keyup', function(e) {
-    console.log(e.keyCode)
     if (e.keyCode === 9) {
       $('#office').css({display: "initial"})
     }
