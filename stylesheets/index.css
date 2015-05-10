@@ -2,44 +2,37 @@ html, body {
   position: relative;
   height: 100%;
 }
-
 body {
   text-align: center;
   font-family: 'Lato';
   padding-top: 20px;
 }
-
 .column {
   border: 2px solid black;
   width: 10px;
   margin-right: 5px;
   display: inline-block;
 }
-
 h1 {
   display: inline-block;
   padding: 3px 10px;
   border-bottom: 3px solid black;
   margin-bottom: 15px;
 }
-
 h2 {
   font-size: 1.5em;
   margin: 0;
 }
-
-section {
+#histogram {
   position: relative;
   margin: 0 auto;
   height: 100%;
 }
-
 .row {
   width: 100%;
   height: 50px;
   background: inherit;
 }
-
 textarea {
   text-align: center;
   width: 90%;
@@ -53,31 +46,40 @@ textarea {
   resize: none;
   margin-bottom: 10px;
 }
-
 p {
   margin: 0;
   font-size: 25px;
   height: 30px;
   margin-bottom: 20px;
 }
-
 footer {
   position: absolute;
   bottom: 20px;
   width: 100%;
 }
-
 h6 {
   font-size: 14px;
 }
-
 a {
   text-decoration: none;
   color: black;
   border-bottom: 1px solid black;
   transition: 0.5s;
 }
-
 a:hover {
   border-bottom-color: rgba(0,0,0,0);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 10px;
+}
+#main {
+  display: none;
 }
